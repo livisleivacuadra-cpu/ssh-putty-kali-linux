@@ -79,9 +79,36 @@ Se realizó una prueba de autenticación y se obtuvo acceso a una terminal remot
 - Uso de PuTTY para administrar conexiones remotas.
 - Diagnóstico de problemas de conectividad y autenticación.
 
-## Evidencias
+## Evidencias del laboratorio
 
-Se incorporarán capturas seleccionadas del laboratorio que documenten la configuración del servicio SSH, la generación de llaves, los permisos y la conexión remota.
+### 1. Instalación del servicio SSH
+![Instalación OpenSSH](evidencias/01-servicio-ssh-instalacion.png)
+
+### 2. Verificación del servicio SSH activo
+![Servicio SSH activo](evidencias/02-servicio-ssh-activo.png)
+
+### 3. Dirección IP de Kali Linux
+![Dirección IP Kali](evidencias/03-direccion-ip-kali.png)
+
+### 4. Prueba de conectividad
+![Prueba de conectividad](evidencias/04-prueba-conectividad.png)
+
+### 5. Configuración de PuTTY
+![Configuración PuTTY](evidencias/05-putty-configuracion.png)
+
+### 6. Generación de llaves con PuTTYgen
+![Generación de llaves](evidencias/06-puttygen-llaves.png)
+
+### 7. Configuración de authorized_keys
+![Archivo authorized_keys](evidencias/07-authorized-keys.png)
+
+### 8. Configuración de permisos SSH
+![Permisos SSH](evidencias/08-permisos-ssh.png)
+
+### 9. Sesión SSH establecida
+![Conexión SSH](evidencias/09-conexion-ssh.png)
+
+**Nota:** La captura de la sesión establecida demuestra acceso remoto mediante SSH, pero no permite confirmar por sí sola que la autenticación final utilizara una llave privada.
 
 No se publicarán llaves privadas, contraseñas ni passphrases.
 
